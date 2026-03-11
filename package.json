@@ -1,0 +1,44 @@
+{
+  "name": "angle-md",
+  "version": "1.0.0",
+  "description": "WhatsApp Bot with Multi-Number Support",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@octokit/rest": "^20.0.2",
+    "@whiskeysockets/baileys": "npm:wileys",
+    "axios": "^1.2.5",
+    "cheerio": "^1.0.0",
+    "denethdev-ytmp3": "1.0.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2",
+    "ffmpeg-static": "^5.1.0",
+    "file-type": "^21.0.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "fs-extra": "^11.2.0",
+    "jimp": "^0.16.13",
+    "moment-timezone": "^0.6.0",
+    "multer": "^1.4.5-lts.1",
+    "mongodb": "^6.18.0",
+    "mongoose": "^8.18.1",
+    "node-fetch": "^2.6.1",
+    "pino": "^8.17.0",
+    "ruhend-scraper": "^9.0.8",
+    "uuid": "^11.1.0",
+    "wa-sticker-formatter": "^4.4.4",
+    "yt-search": "2.12.1"
+  },
+  "engines": {
+    "node": "20.x"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "baileys",
+    "multi-device"
+  ],
+  "author": "ADHI",
+  "license": "MIT"
+}
