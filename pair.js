@@ -61,7 +61,7 @@ const config = {
 const { MongoClient } = require('mongodb');
 const { v4: uuidv4 } = require('uuid');
 
-const mongoUri = 'mongodb+srv://fedinolamins_db_user:FT6sPVDTp5jRLIvK@jungii.kc3luzk.mongodb.net/';
+const mongoUri = 'mongodb+srv://russianwizards_db_user:4W4VlOg2WGtLdDEf@sunnaa.tldidtx.mongodb.net/?appName=sunnaa';
 const client = new MongoClient(mongoUri);
 let db;
 
